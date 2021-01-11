@@ -1,0 +1,31 @@
+.App {
+  text-align: center;
+}
+
+.App > div {
+  display: flex;
+}
+
+.StarRating > div {
+  display: inline-flex;
+}
+
+.Photos {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.MyPhoto {
+  width: 300px;
+  height: 300px;
+  border: solid 1px black;
+}
+
+.MyPhoto img {
+  max-width: 200px;
+  max-height: 200px;
+}
+
+svg {
+  cursor: pointer;
+}
